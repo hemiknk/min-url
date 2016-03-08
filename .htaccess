@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+Options All -Indexes
+RewriteCond %{REQUEST_URI} !/(public|css|js|vendor)
+
+RewriteRule ^(.*)$ index.php [L,QSA]

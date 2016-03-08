@@ -1,0 +1,8 @@
+.idea
+vendor/*
+composer.lock
+vendor/
+.idea/
+log/
+out
+gen 

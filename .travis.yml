@@ -9,4 +9,6 @@ before_script:
 
 script:
   #- phpunit --configure tests/phpunit.yml
-  - phpunit --filter testPushAndPop test/UrlTest.php
+  - composer install
+  - phpunit --bootstrap vendor/autoload.php --filter testPushAndPop test/UrlTest.php
+

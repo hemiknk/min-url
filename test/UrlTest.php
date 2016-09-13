@@ -1,6 +1,10 @@
 <?php
 
-class UrlTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+
+require_once ('PHPUnit/Framework/TestCase.php');
+
+class UrlTest extends TestCase
 {
 
     public function testPushAndPop()

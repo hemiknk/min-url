@@ -10,8 +10,9 @@
  <property name="pdepend" value="${basedir}/build/tools/pdepend.phar"/>
  <property name="phpcpd"  value="${basedir}/build/tools/phpcpd.phar"/>
  <property name="phpcs"   value="${basedir}/build/tools/phpcs.phar"/>
- <property name="phpdox"  value="${basedir}/build/tools/phpdox.phar"/>
- <property name="phploc"  value="${basedir}/build/tools/phploc.phar"/>
+ <property name="phpdox"  value="${basedir}/build/tools/phpdox.phar"/>-->
+    <property name="phploc"  value="${basedir}/build/tools/phploc.phar"/>
+    <!--
  <property name="phpmd"   value="${basedir}/build/tools/phpmd.phar"/>
  <property name="phpunit" value="${basedir}/build/tools/phpunit.phar"/>
 --><!-- Use this when the tools are managed by Composer in ${basedir}/vendor/bin

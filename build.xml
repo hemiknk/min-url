@@ -17,7 +17,8 @@
 
         <target name="phpunit" description="Run unit tests with PHPUnit">
             <exec executable="phpunit" failonerror="true">
-                <arg line="--bootstrap vendor/autoload.php --filter testPushAndPop test/UrlTest.php">
+                <arg line="--bootstrap vendor/autoload.php --filter testPushAndPop test/UrlTest.php --coverage-crap4j build/logs/crap4j.xml
+ --coverage-xml build/logs/junit.xml">
                 </arg>
             </exec>
         </target>

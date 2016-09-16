@@ -3,16 +3,16 @@
     </target>
         <target name="clean" description="Cleanup build artifacts">
             <delete dir="build/coverage">
-                <delete dir="build/logs">
-                </delete>
-            </delete>
+
+            </delete><delete dir="build/logs">
+        </delete>
         </target>
 
         <target name="prepare" depends="clean" description="Prepare for build">
             <mkdir dir="build/coverage">
-                <mkdir dir="build/logs">
-                </mkdir>
-            </mkdir>
+
+            </mkdir><mkdir dir="build/logs">
+        </mkdir>
         </target>
 
         <target name="phpunit" description="Run unit tests with PHPUnit">

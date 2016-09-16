@@ -1,5 +1,5 @@
 <project name="name-of-project" default="build" basedir=".">
-    <target name="build" depends="prepare,ci-phpcs,phpunit">
+    <target name="build" depends="prepare,phpunit">
     </target>
         <target name="clean" description="Cleanup build artifacts">
             <delete dir="build/coverage">
@@ -21,11 +21,5 @@
                 </arg>
             </exec>
         </target>
-
-        <target name="ci-phpcs" description="Find coding standarts">
-            <exec executable="./ci-phpcs.php">
-            </exec>
-        </target>
-
 
 </project>

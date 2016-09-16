@@ -1,6 +1,6 @@
 <project name="name-of-project" default="build" basedir=".">
     <target name="build" depends="prepare,ci-phpcs,phpunit">
-
+    </target>
         <target name="clean" description="Cleanup build artifacts">
             <delete dir="build/coverage">
                 <delete dir="build/logs">
@@ -27,5 +27,5 @@
             </exec>
         </target>
 
-    </target>
+
 </project>
